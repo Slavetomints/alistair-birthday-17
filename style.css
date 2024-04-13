@@ -1,26 +1,28 @@
 body {
-    background-color: aqua;
-    font-family: "Comic Sans MS", "Comic Sans", cursive
+    background-color: #8287ff;
+    color: #fffa82;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a:hover {
+    color: #fffa82;
 }
 h1 {
-    text-align: center;
     font-size: 50px;
-    font-family: montserrat;
-    ;
-}
-div {
     text-align: center;
-    border: dashed 3px;
-    border-radius: 25%;
-    margin-bottom: 50px;
 }
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
-a:hover{
-  color: aqua;
+.content {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    flex: 1 1 0;
+
 }
