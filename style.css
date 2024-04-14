@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: #4ED2FF;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     margin: 5% 10%;
 }
@@ -40,5 +40,5 @@ img {
     height: 100%;
 }
 a:hover{
-    color: aqua;
+    color: #006384;
 }
